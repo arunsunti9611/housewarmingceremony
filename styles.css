@@ -1,7 +1,10 @@
-/* Example of a media query for small screens */
-@media only screen and (max-width: 600px) {
-    /* Your styles for small screens go here */
-}
+  @media only screen and (max-width: 600px) {
+            nav a {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+        }
 @keyframes colorChange {
     0% { color: red; }
     25% { color: orange; }
