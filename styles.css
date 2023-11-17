@@ -17,19 +17,30 @@
 body {
    
     font-family: 'Trocchi';
-    margin: 0;  
-    padding: 0;  
+    margin: auto;  
+     
     background-image: url(./assests/images/background.jpg) no-repeat center center fixed; 
    
     -webkit-background-size: cover; 
     -moz-background-size: cover;
      -o-background-size: cover; 
-    background-size:cover;
+    
     
 
-    background-attachment: fixed;
+    
  
-    background-position: center;
+
+
+     /* Set the background image */
+     /*background-image: url('your-background-image.jpg');
+     /* Set the background size to cover the entire screen */
+     background-size: cover;
+     /* Set the background to fixed so it stays in place as you scroll */
+     background-attachment: fixed;
+     /* Set the initial background position */
+     background-position: center;
+     /* Add some padding to the body */
+     padding: 20px;
 }
 
 
