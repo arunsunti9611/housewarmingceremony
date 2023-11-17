@@ -5,11 +5,18 @@
         text-align: center;
     }
 }
-
+@keyframes colorChange {
+0% { color: red; }
+25% { color: orange; }
+50% { color: yellow; }
+75% { color: green; }
+100% { color: blue; }
+}
 
 
 body {
-    font-family: Arial, sans-serif;
+   
+    font-family: 'Trocchi';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,8 +25,10 @@ body {
 
 
 .container {
-max-width: 800px;
-margin: 0 auto;
+margin-top: 400px;
+max-width:fit-content;
+margin-left: auto;
+margin-right: auto;
 padding: 20px;
 text-align: center;
 }
@@ -28,13 +37,8 @@ text-align: center;
 
 
 
-p {
-font-size: 1.2em;
-margin-bottom: 20px;
-color: black;
 
 
-}
 
 .button-container {
 display: flex;
@@ -54,41 +58,16 @@ transition: background-color 0.3s;
 
 
 
-.button:hover {
-background-color: #a08345;
-}
 
-@keyframes marquee {
-100% { transform: translateX(-100%); }
-100% { transform: translateX(-100%); }
-}
 
-.marquee-container {
-width: 100%;
-overflow:hidden;
-}
 
-.marquee-images {
-display: flex;
-animation: marquee 20s linear infinite; /* Set duration to 0s for continuous scroll */
-}
-
-.marquee-images img {
-width: 200px; /* Set the width of your images */
-height: 150px; /* Set the height of your images */
-margin-right: 10px; /* Adjust the spacing between images */
-}
-
-.underline {
-color:#fff ;
-border-bottom: 10px solid;
-}
 
 .h{
 
     font-family: 'Trocchi';
     font-size: 30px; 
     color: #f0c243;
+    text-align: center;
 }
 
 
@@ -97,6 +76,7 @@ border-bottom: 10px solid;
     font-family: 'Trocchi';
     font-size: 22px; 
     color: #f0c243;
+    text-align: center;
 }
 
 .spa{
@@ -104,4 +84,5 @@ border-bottom: 10px solid;
     font-family: 'Trocchi';
     font-size: 18px; 
     color: #f0c243;
+    text-align: center;
 }
