@@ -66,7 +66,7 @@ transition: background-color 0.3s;
 .h{
 
     font-family: 'Trocchi';
-    font-size: 30px; 
+    font-size: 25px; 
     color: #f0c243;
     text-align: center;
 }
@@ -75,7 +75,7 @@ transition: background-color 0.3s;
 .pa{
 
     font-family: 'Trocchi';
-    font-size: 22px; 
+    font-size: 18px; 
     color: #f0c243;
     text-align: center;
 }
@@ -83,7 +83,7 @@ transition: background-color 0.3s;
 .spa{
 
     font-family: 'Trocchi';
-    font-size: 18px; 
+    font-size: 15px; 
     color: #f0c243;
     text-align: center;
 }
