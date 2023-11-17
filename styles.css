@@ -5,13 +5,7 @@
         text-align: center;
     }
 }
-@keyframes colorChange {
-0% { color: red; }
-25% { color: orange; }
-50% { color: yellow; }
-75% { color: green; }
-100% { color: blue; }
-}
+
 
 
 body {
@@ -30,13 +24,7 @@ padding: 20px;
 text-align: center;
 }
 
-.colorchange{
-font-size: 2.5em;
-margin-bottom: 20px;
-font-size: 2em;
-animation: colorChange 5s infinite alternate;
-color: black;
-}
+
 
 
 
